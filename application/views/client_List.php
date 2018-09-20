@@ -30,7 +30,7 @@
                                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal" style="float:right;margin-top:-6px;">Delete</button>
   </div>
                           
-                                            <!-- Modal -->
+                                            <!-- Modal by Juhi -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
