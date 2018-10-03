@@ -13,7 +13,7 @@
     
 <div class ="row">
             <div class ="col-md-6 col-sm-6" >
-          <img class="img-responsive"  src="<?php echo base_url(''); ?>assets/images/logo1.jpg" alt="Chania" width="150" height="140" padding-left="10px"/>
+          <img class="img-responsive"  src="<?php echo base_url(''); ?>assets/images/logo1.jpg" alt="Chania" width="130" height="120" padding-left="10px"/>
          
      </div>
   
@@ -23,9 +23,9 @@
   </div>
     
 
-<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+<nav class="navbar navbar-inverse  " data-spy="affix" data-offset-top="197">
     <div class="navbar-header">
-        <a class="navbar-brand" href="#">Cretek Concrete</a>
+        <a class="navbar-brand" href="http://localhost/project1">Cretek Concrete</a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -35,13 +35,15 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
       
-    <li><a href="http://localhost/project1">HomePage</a></li>
+    
     <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href>Client
             <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="http://localhost/project1/welcome/add">Add Client</a></li>
                 <li><a href="http://localhost/project1/welcome/delete_client">View Client</a></li>
+                <li><a href="http://localhost/project1/welcome/add_project">Add Project</a></li>
+            
             </ul>
       </ul>
     </div>
