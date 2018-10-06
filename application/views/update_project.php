@@ -8,8 +8,8 @@
               
                <div class="form-group">
                   <label> Project ID</label>
-                  <input class="form-control" name="projectID" placeholder="Enter project ID"
-                         value="<?php echo $projects->projectID; ?>">
+                  <input class="form-control"  name="projectID" placeholder="Enter project ID"
+                         value="<?php echo $projects->projectID; ?>" readonly>
              
               <div class="form-group">
                   <label> Title</label>

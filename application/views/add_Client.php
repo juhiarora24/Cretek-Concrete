@@ -7,10 +7,7 @@
           <form action="/project1/welcome/add" method="POST">
           
           <div class="col-md-10 col-md-offset-1">
-              <div class="form-group">
-                  <label>Client ID</label>
-                  <input class="form-control" name="Client_id" placeholder="Enter id">
-              </div>
+              
               <div class="form-group">
                   <label> First Name</label>
                   <input class="form-control" name="first_name" placeholder="Enter First name">

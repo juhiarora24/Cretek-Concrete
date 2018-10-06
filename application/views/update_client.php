@@ -1,14 +1,27 @@
 
 <?php include_once ('navigation.php');?>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4f93575233de6259ad52c95e878ea5d155d68426
 <div class="col-md-12">
           <h1> Update Client</h1>
           <form action="" method="POST">
           <div class="col-md-10 col-md-offset-1">
+<<<<<<< HEAD
              <div class="form-group">
                   <label>Client Id</label>
                   <input class="form-control" name="Client_id" placeholder="Client ID"
                          value="<?php echo $clients->Client_id; ?>">
               </div>
+=======
+              
+               <div class="form-group">
+                  <label> Client ID</label>
+                  <input class="form-control"  name="Client_id" placeholder="Enter Client ID"
+                         value="<?php echo $clients->Client_id; ?> " readonly>
+             
+>>>>>>> 4f93575233de6259ad52c95e878ea5d155d68426
               <div class="form-group">
                   <label> First Name</label>
                   <input class="form-control" name="first_name" placeholder="Enter First name"
@@ -44,6 +57,11 @@
           </div>  
       </form>
       </div>
+<<<<<<< HEAD
+=======
+       
+       
+>>>>>>> 4f93575233de6259ad52c95e878ea5d155d68426
  
 
 
