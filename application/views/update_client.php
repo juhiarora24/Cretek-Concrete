@@ -1,13 +1,14 @@
 
 <?php include_once ('navigation.php');?>
-<div class="panel panel-success">
-      <div class="panel-heading">Enter Client detils</div>
-       <div class="panel-body">
 <div class="col-md-12">
           <h1> Update Client</h1>
           <form action="" method="POST">
           <div class="col-md-10 col-md-offset-1">
-             
+             <div class="form-group">
+                  <label>Client Id</label>
+                  <input class="form-control" name="Client_id" placeholder="Client ID"
+                         value="<?php echo $clients->Client_id; ?>">
+              </div>
               <div class="form-group">
                   <label> First Name</label>
                   <input class="form-control" name="first_name" placeholder="Enter First name"
@@ -34,12 +35,15 @@
                   <input class="form-control" name="email" placeholder="Enter email address"
                              value="<?php echo $clients->email; ?>">
               </div>
-              <button class="btn btn-primary" name="update" >Update Client</button>
+
+      <button name="update" class="btn btn-primary">Update Client</button>
+  
+
+        
+  
           </div>  
       </form>
       </div>
-       </pannel>
-       
  
 
 

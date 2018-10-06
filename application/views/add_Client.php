@@ -1,9 +1,7 @@
 
 <?php include_once ('navigation.php');?>
 
-<pannel><div class="panel panel-success">
-      <div class="panel-heading">Enter Client Details</div>
-       <div class="panel-body">
+
 <div class="col-md-12">
           <h1> Add new Client</h1>
           <form action="/project1/welcome/add" method="POST">

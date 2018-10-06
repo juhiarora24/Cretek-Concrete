@@ -13,7 +13,7 @@
     
 <div class ="row">
             <div class ="col-md-6 col-sm-6" >
-          <img class="img-responsive"  src="<?php echo base_url(''); ?>assets/images/logo1.jpg" alt="Chania" width="130" height="120" padding-left="10px"/>
+          <img class="img-responsive"  src="<?php echo base_url(''); ?>assets/images/logo1.jpg" alt="Chania" width="150" padding-left="10px"/>
          
      </div>
   
