@@ -19,9 +19,9 @@ class Welcome extends CI_Controller {
              if( isset($_POST['add'])){
                 $this->load->model('client_model');
                 if($this->client_model->add_client()){
-                    $this->session->set_flashdata('sucess','Product Added Sucessfuly');
-                    die;
-                    redirect('welcome/add', 'refresh');
+                    //$this->session->set_flashdata('sucess','Product Added Sucessfuly');
+                    //die;
+                    redirect('welcome/viewclient', 'refresh');
                     
                 } else{
                       $this->session->set_flashdata('error','An error occured');
@@ -61,9 +61,9 @@ class Welcome extends CI_Controller {
       $this->load->model('client_model');
       if(isset($_POST['update'])){
             if($this->client_model->updateClient($id)){
-                  $this->session->set_flashdata('sucess','Product Added Sucessfuly');
-                    die;
-                    redirect('welcome/update' . $id, 'refresh');
+                 // $this->session->set_flashdata('sucess','Client added sucessfully');
+                  //  die;
+                    redirect('welcome/viewclient', 'refresh');
                     
                 } else{
                       $this->session->set_flashdata('error','An error occured');
@@ -90,8 +90,8 @@ class Welcome extends CI_Controller {
               
           
                 if($this->client_model->create_project()){
-                    $this->session->set_flashdata('sucess','Product Added Sucessfuly');
-                    die;
+                  //  $this->session->set_flashdata('sucess','Product Added Sucessfuly');
+                   // die;
                     redirect('welcome/viewclient', 'refresh');
                     
                 } else{
@@ -134,9 +134,9 @@ class Welcome extends CI_Controller {
           $this->load->model('client_model');
       if(isset($_POST['update'])){
             if($this->client_model->update_project($id)){
-                  $this->session->set_flashdata('sucess','Product Added Sucessfuly');
-                    die;
-                    redirect('welcome/update' . $id, 'refresh');
+                  //$this->session->set_flashdata('sucess','Product Added Sucessfuly');
+                  //  die;
+                    redirect('welcome/viewclient', 'refresh');
                     
                 } else{
                       $this->session->set_flashdata('error','An error occured');
