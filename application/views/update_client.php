@@ -8,8 +8,8 @@
               
                <div class="form-group">
                   <label> Client ID</label>
-                  <input class="form-control" id="disabledInput" name="Client_id" placeholder="Enter Client ID"
-                         value="<?php echo $clients->Client_id; ?> " disabled>
+                  <input class="form-control"  name="Client_id" placeholder="Enter Client ID"
+                         value="<?php echo $clients->Client_id; ?> " readonly>
              
               <div class="form-group">
                   <label> First Name</label>
