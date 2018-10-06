@@ -7,8 +7,8 @@
  
 <div clss="container">
     
-    <table class="table table-striped table-hover">
-                <thead>
+    <table class="table table-striped table-hover ">
+                <thead class="thead-light">
                     <tr class="bg-primary">
                       
                         <th>Client id</th>

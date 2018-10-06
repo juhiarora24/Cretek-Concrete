@@ -1,12 +1,15 @@
 
 <?php include_once ('navigation.php');?>
-<div class="panel panel-success">
-      <div class="panel-heading">Enter Client detils</div>
-       <div class="panel-body">
+
 <div class="col-md-12">
           <h1> Update Client</h1>
           <form action="" method="POST">
           <div class="col-md-10 col-md-offset-1">
+              
+               <div class="form-group">
+                  <label> Client ID</label>
+                  <input class="form-control" name="Client_id" placeholder="Enter Client ID"
+                         value="<?php echo $clients->Client_id; ?>">
              
               <div class="form-group">
                   <label> First Name</label>
@@ -38,7 +41,7 @@
           </div>  
       </form>
       </div>
-       </pannel>
+       
        
  
 
